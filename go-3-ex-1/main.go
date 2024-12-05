@@ -75,9 +75,17 @@ func main() {
 	edsger := Person{FullName{"Edsger", "Dijkstra"}, BirthDate{11, 5, 1930}}
 	alan := Person{FullName{"Alan", "Turing"}, BirthDate{23, 6, 1912}}
 
+	marie := Person{FullName{"Marie", "Curie"}, BirthDate{7, 11, 1867}}
+	albert := Person{FullName{"Albert", "Einstein"}, BirthDate{14, 3, 1879}}
+	ada := Person{FullName{"Ada", "Lovelace"}, BirthDate{10, 12, 1815}}
+
 	outputWithZodiacSign(grace)
 	outputWithZodiacSign(dennis)
 	outputWithZodiacSign(rick)
 	outputWithZodiacSign(edsger)
 	outputWithZodiacSign(alan)
+
+	outputWithZodiacSign(marie)
+	outputWithZodiacSign(albert)
+	outputWithZodiacSign(ada)
 }
