@@ -20,20 +20,20 @@ func main() {
 	if err != nil {
 		fmt.Println("Fehler:", err)
 	} else {
-		fmt.Println("Note für 17.5 von 28.0:", grade)
+		fmt.Println("Note für 17.5 von 28.0:", grade) // 4.125
 	}
 
 	grade, err = computeGrade(50, 50)
 	if err != nil {
 		fmt.Println("Fehler:", err)
 	} else {
-		fmt.Println("Note für 50 von 50:", grade)
+		fmt.Println("Note für 50 von 50:", grade) // 6.0
 	}
 
 	grade, err = computeGrade(30, 20)
 	if err != nil {
 		fmt.Println("Fehler:", err)
 	} else {
-		fmt.Println("Note für 30 von 20:", grade)
+		fmt.Println("Note für 30 von 20:", grade) // Fehler
 	}
 }
